@@ -37,8 +37,10 @@ Once cloned, you should be able to simply run:
 
 `python prepare_dataset.py`
 
-If everything goes to plan, you should find a folder called `csv_bird_data` with
-the following contents:
+Note that this can take a while, since it has to download a lot of files and
+process the results (probably around 30 minutes in total, or so). If everything
+goes to plan, you should find a folder called `csv_bird_data` with the following
+contents:
 
 ```
 ├── fold.ids.csv
