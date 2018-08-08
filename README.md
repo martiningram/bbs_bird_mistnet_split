@@ -9,7 +9,7 @@ paper is available
 Please note: The dataset fetched here is proprietary. Please make sure to read
 the terms of use [here](https://www.pwrc.usgs.gov/bbs/rawdata/).
 
-The code downloads the BBS data, use David Harris's (modified) scripts to split
+The code downloads the BBS data, uses David Harris's (modified) scripts to split
 them into training and test sets, and saves the results as csvs into the
 subfolder `csv_bird_data`.
 
