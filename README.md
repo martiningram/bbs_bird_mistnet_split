@@ -29,7 +29,11 @@ To run, the code requires:
 
 ## How to run
 
-Simply run:
+Make sure (!) to clone this repository with its submodules by using:
+
+`git clone --recurse-submodules CLONE_URL`
+
+Once cloned, you should be able to simply run:
 
 `python prepare_dataset.py`
 
