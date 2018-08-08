@@ -26,9 +26,9 @@ if not os.path.isdir(download_folder):
     url = 'ftp://ftpext.usgs.gov/pub/er/md/laurel/BBS/DataFiles/'
 
     # Fetch the data
-    return_code = subprocess.call(['wget', '-r', url])
-
-    assert(return_code == 0)
+    process = subprocess.Popen(['wget', '-r', url], cwd=download_path)
+    process.communicate()
+    assert(process.return_code == 0)
 
 assert(os.path.isdir(download_folder))
 
