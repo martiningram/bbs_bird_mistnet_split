@@ -28,7 +28,7 @@ if not os.path.isdir(download_folder):
     # Fetch the data
     process = subprocess.Popen(['wget', '-r', url], cwd=download_path)
     process.communicate()
-    assert(process.return_code == 0)
+    assert(process.returncode == 0)
 
 assert(os.path.isdir(download_folder))
 
@@ -42,7 +42,6 @@ data_file_zips = glob(os.path.join(data_target_path, '*.zip'))
 survey_zips = glob(os.path.join(data_target_path, folder_name, '*/*.zip'))
 
 for cur_zip in data_file_zips + survey_zips:
-
     unzip_into_same_folder(cur_zip)
 
 mistnet_script_path = os.path.join('extras', 'BBS-analysis')
