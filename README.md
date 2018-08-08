@@ -1,7 +1,7 @@
 # Fetch North American Breeding bird data with mistnet train & test split
 
 The code in this repository uses the scripts provided by [David
-Harris](https://github.com/davharris) mistnet model to process the BBS data into
+Harris's](https://github.com/davharris) mistnet model to process the BBS data into
 a training and test dataset, as well as cross validation folds. The mistnet
 paper is available
 [here](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12332/full).
