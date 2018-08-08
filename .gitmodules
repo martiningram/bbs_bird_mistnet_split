@@ -1,0 +1,3 @@
+[submodule "mistnet"]
+	path = mistnet
+	url = git@github.com:martiningram/mistnet.git
